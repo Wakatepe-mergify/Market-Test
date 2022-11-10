@@ -3,7 +3,7 @@ pull_request_rules:
     conditions:
       - "#approved-reviews-by>=0"
       - label=default
-      - base=master
+      - base=main
     actions:
       merge:
         method: merge
